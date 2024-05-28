@@ -1,0 +1,59 @@
+{
+	"items": [
+		{
+			"id": 1,
+			"name": "Mock Item 1",
+			"description": "This is the first mock item for testing."
+		},
+		{
+			"id": 2,
+			"name": "Mock Item 2",
+			"description": "This is the second mock item for testing."
+		},
+		{
+			"id": 3,
+			"name": "Mock Item 3",
+			"description": "This is the third mock item for testing."
+		},
+		{
+			"id": 4,
+			"name": "Mock Item 4",
+			"description": "This is the fourth mock item for testing."
+		},
+		{
+			"id": 5,
+			"name": "Mock Item 5",
+			"description": "This is the fifth mock item for testing."
+		},
+		{
+			"id": 6,
+			"name": "Mock Item 6",
+			"description": "This is the sixth mock item for testing."
+		},
+		{
+			"id": 7,
+			"name": "Mock Item 7",
+			"description": "This is the seventh mock item for testing."
+		},
+		{
+			"id": 8,
+			"name": "Mock Item 8",
+			"description": "This is the eighth mock item for testing."
+		},
+		{
+			"id": 9,
+			"name": "Mock Item 9",
+			"description": "This is the ninth mock item for testing."
+		},
+		{
+			"id": 10,
+			"name": "Mock Item 10",
+			"description": "This is the tenth mock item for testing."
+		},
+		{
+			"id": 42,
+			"name": "Mock Item 42",
+			"description": "This is a mock item for testing."
+		}
+	]
+}

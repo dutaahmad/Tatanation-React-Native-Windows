@@ -1,9 +1,7 @@
 // src/screens/HomeScreen.tsx
 import React, { useEffect, useState } from 'react';
 import { View, Text, SectionList } from 'react-native';
-import Loading from '../components/Loading';
-import { simulateSlow } from '../libs/utils';
-import Button from "../components/Button"
+import { Loading, Logo, Button } from '../components';
 import { useData } from '../libs/hooks';
 import { HomeScreenProps, MockDatas } from '../libs/type';
 
@@ -18,6 +16,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navigate }) => {
     else if (data) return (
         <View className='flex flex-col items-center flex-1 gap-2'>
             <View className='flex flex-col items-center justify-center gap-2 h-[60%] bg-black w-full rounded-br-[100px] rounded-bl-[-60px]'>
+                <Logo />
                 <Text className='font-extrabold tracking-tight text-center text-7xl' >Tatanation</Text>
                 <Text className='font-extrabold tracking-tight text-center first-letter:text-5xl' >React Native Windows Template</Text>
                 <View className='flex flex-col items-center justify-end h-[20%]'>
