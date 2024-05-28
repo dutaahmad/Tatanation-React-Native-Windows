@@ -19,7 +19,7 @@ const DetailScreen: React.FC<DetailScreenProps> = ({ navigate, params }) => {
 
     return (
         <View className='flex flex-col items-center flex-1 gap-2'>
-            <View className='flex flex-col items-center justify-center gap-2 h-[60%] bg-black w-full rounded-br-[100px] rounded-bl-[-60px]'>
+            <View className='flex flex-col items-center justify-center gap-2 h-[60%] bg-black w-full rounded-br-[100px]'>
                 <Text className='font-extrabold tracking-tight text-center text-7xl' >Tatanation</Text>
                 <Text className='font-extrabold tracking-tight text-center first-letter:text-5xl' >React Native Windows Template</Text>
                 <View className='flex flex-col items-center justify-end h-[20%]'>

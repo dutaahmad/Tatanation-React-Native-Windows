@@ -15,7 +15,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navigate }) => {
     );
     else if (data) return (
         <View className='flex flex-col items-center flex-1 gap-2'>
-            <View className='flex flex-col items-center justify-center gap-2 h-[60%] bg-black w-full rounded-br-[100px] rounded-bl-[-60px]'>
+            <View className='flex flex-col items-center justify-center gap-2 h-[60%] bg-black w-full rounded-br-[100px]'>
                 <Logo />
                 <Text className='font-extrabold tracking-tight text-center text-7xl' >Tatanation</Text>
                 <Text className='font-extrabold tracking-tight text-center first-letter:text-5xl' >React Native Windows Template</Text>
@@ -26,7 +26,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navigate }) => {
             <View className='w-8/12 mt-4 rounded-lg bg-neutral-900'>
                 <SectionList
                     sections={data.map((item) => ({ title: item.name, id: item.id.toString(), data: [item.description] }))}
-                    renderItem={({ item }) => <Text className='mb-4 text-base font-light text-white'>{item}</Text>}
+                    renderItem={({ item }) => <Text className='mb-2 ml-2 text-base font-light text-white'>{item}</Text>}
                     keyExtractor={(item, index) => (item + index)}
                     renderSectionHeader={({ section }) => (
                         <View className="bg-black rounded-sm" style={{ gap: 10, display: "flex", flexDirection: "row", alignItems: "center", padding: 12 }}>
